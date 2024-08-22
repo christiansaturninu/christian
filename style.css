@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(8, 25, 102);
+    color: rgb(245, 244, 239);
+    font-family: "New Tegomin", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 10;
+}
+
+button{
+    background-color: rgb(241, 245, 248);
+    color: rgb(9, 37, 161);
+}
+.passo {
+    display: none;
+}
+.passo.ativo {
+    display:block;
+}
